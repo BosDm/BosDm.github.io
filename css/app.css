@@ -1,0 +1,45 @@
+#root{
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    padding: 10px;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+}
+
+.book__title{
+    margin-left: 4px;
+}
+
+.book:nth-child(2n) {
+    background: #eff0f1;
+}
+
+.book__action{
+    display: inline;
+    margin: 0 5px 5px 0;
+}
+
+.library{
+    padding: 5px 20px 10px 10px;
+    width: 75%;
+}
+
+.books__caption{
+    margin: 0 0 0 0;
+    background-color: #337ab7;
+    color: white;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 2px;
+    border-bottom: navy;
+}
+
+.books__body{
+    border: 3px solid #337ab7;
+    border-radius: 2px;
+}
